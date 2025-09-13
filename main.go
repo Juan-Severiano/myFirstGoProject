@@ -5,6 +5,7 @@ package main
 import (
 	"fmt"
 	"myFirstGoProject/pacote"
+	"myFirstGoProject/variaveis"
 )
 
 func main() {
@@ -22,6 +23,8 @@ func main() {
 	x := somar2(2)(1)
 
 	fmt.Println(x)
+
+	variaveis.Foo()
 }
 
 func multiplicar(nums ...int) int {
